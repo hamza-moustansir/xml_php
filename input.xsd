@@ -1,0 +1,60 @@
+﻿<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ests">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="user">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="username"/>
+              <xs:element type="xs:string" name="email"/>
+              <xs:element type="xs:string" name="password"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="admin">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="username"/>
+              <xs:element type="xs:string" name="email"/>
+              <xs:element type="xs:string" name="password"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="candidate" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:byte" name="id"/>
+              <xs:element type="xs:string" name="prenom"/>
+              <xs:element type="xs:string" name="midlle"/>
+              <xs:element type="xs:string" name="nom"/>
+              <xs:element type="xs:string" name="sex"/>
+              <xs:element type="xs:date" name="date"/>
+              <xs:element type="xs:string" name="cni"/>
+              <xs:element type="xs:string" name="cne"/>
+              <xs:element type="xs:string" name="adresse"/>
+              <xs:element type="xs:string" name="ville"/>
+              <xs:element type="xs:short" name="postale"/>
+              <xs:element type="xs:int" name="mobile"/>
+              <xs:element type="xs:string" name="email"/>
+              <xs:element type="xs:int" name="apoge"/>
+              <xs:element type="xs:float" name="moyen_bac"/>
+              <xs:element type="xs:short" name="annee_bac"/>
+              <xs:element type="xs:string" name="type_diplome"/>
+              <xs:element type="xs:string" name="specialite_diplome"/>
+              <xs:element type="xs:byte" name="moyenne_diplome"/>
+              <xs:element type="xs:byte" name="classement"/>
+              <xs:element type="xs:byte" name="totale"/>
+              <xs:element type="xs:byte" name="moyennee_diplome"/>
+              <xs:element type="xs:byte" name="classemente"/>
+              <xs:element type="xs:byte" name="totalee"/>
+              <xs:element type="xs:string" name="choix_1"/>
+              <xs:element type="xs:string" name="choix_2"/>
+              <xs:element type="xs:string" name="choix_3"/>
+              <xs:element type="xs:string" name="status"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

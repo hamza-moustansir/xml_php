@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="trans.xsl"?>
+<ests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="input.xsd">
+
+
+    <user>
+        <username>hamza</username>
+        <email>hamza@gmail.com</email>
+        <password>hamza</password>
+    </user>
+    <admin>
+        <username>deko</username>
+        <email>deko@gmail.com</email>
+        <password>deko</password>
+    </admin>
+  <user>
+        <username>h</username>
+        <email>haza@gmail.com</email>
+        <password>hamza</password>
+    </user>
+
+    <candidate>
+        <id>1</id>
+        <prenom>Izuku</prenom>
+        <midlle>deko</midlle>
+        <nom>Midoriya</nom>
+        <sex>male</sex>
+        <date>
+        1003-01-01</date>
+        <cni>I455896</cni>
+        <cne>K1234563</cne>
+        <adresse>Fes centre</adresse>
+        <ville>
+        Fes</ville>
+        <postale>20123</postale>
+        <mobile>0625458695</mobile>
+        <email>deko@gmail.com</email>
+        <apoge>
+        20003654</apoge>
+        <moyen_bac>19.00</moyen_bac>
+        <annee_bac>2020</annee_bac>
+        <type_diplome>DEUG</type_diplome>
+        <specialite_diplome>
+        GI</specialite_diplome>
+        <moyenne_diplome>19</moyenne_diplome>
+        <classement>1</classement>
+        <totale>
+        123</totale>
+        <moyennee_diplome>18</moyennee_diplome>
+        <classemente>1</classemente>
+        <totalee>85</totalee>
+        <choix_1>
+        MÉCATRONIQUE</choix_1>
+        <choix_2>MÉTROLOGIE, QUALITÉ, SÉCURITÉ ET ENVIRONNEMENT</choix_2>
+        <choix_3>GESTION
+        COMPTABLE ET FINANCIÈRE</choix_3>
+        <status>en cours</status>
+    </candidate>
+    <candidate>
+        <id>1</id>
+        <prenom>Izuku</prenom>
+        <midlle>deko</midlle>
+        <nom>Midoriya</nom>
+        <sex>female</sex>
+        <date>
+        2003-01-01</date>
+        <cni>I455896</cni>
+        <cne>K1234563</cne>
+        <adresse>Fes centre</adresse>
+        <ville>
+        Fes</ville>
+        <postale>20123</postale>
+        <mobile>0625458695</mobile>
+        <email>deko@gmail.com</email>
+        <apoge>
+        20003654</apoge>
+        <moyen_bac>19.00</moyen_bac>
+        <annee_bac>2019</annee_bac>
+        <type_diplome>DEUG</type_diplome>
+        <specialite_diplome>
+        GI</specialite_diplome>
+        <moyenne_diplome>19</moyenne_diplome>
+        <classement>1</classement>
+        <totale>
+        123</totale>
+        <moyennee_diplome>18</moyennee_diplome>
+        <classemente>1</classemente>
+        <totalee>85</totalee>
+        <choix_1>
+        MÉCATRONIQUE</choix_1>
+        <choix_2>MÉTROLOGIE, QUALITÉ, SÉCURITÉ ET ENVIRONNEMENT</choix_2>
+        <choix_3>GESTION
+        COMPTABLE ET FINANCIÈRE</choix_3>
+        <status>en cours</status>
+    </candidate>
+</ests>
